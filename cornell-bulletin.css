@@ -1,0 +1,29 @@
+.wrapper{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-family: 'Cinzel', serif;
+}
+.top{
+    font-size: 0.8em;
+    display: inline-flex;
+}
+.break{
+    float: right;
+}
+.title{
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 1.86em;
+    margin-top: 0px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+.text{
+    text-align: justify;
+    font-size: 0.7em;
+    word-spacing: 1px;
+    letter-spacing: 0.0px;
+}
