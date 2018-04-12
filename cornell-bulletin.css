@@ -12,18 +12,54 @@
 .break{
     float: right;
 }
-.title{
-    text-align: center;
-    word-spacing: 20px;
-    font-size: 1.86em;
+.head{
+    text-align: justify;
+    text-align-last: justify;
+    word-spacing: 20.8px;
+    letter-spacing: 1px;
+    font-size: 1.7em;
     margin-top: 0px;
     border-bottom-color: black;
     border-bottom-style: solid;
     border-bottom-width: 4px;
+    padding-bottom: 5px;
 }
 .text{
+    text-align-last: justify;
     text-align: justify;
-    font-size: 0.7em;
-    word-spacing: 1px;
-    letter-spacing: 0.0px;
+    font-size: 0.8em;
+    word-spacing: 3px;
+    letter-spacing: 0.4px;
+    border-top: black;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 5px;
+    margin-top: -18px;
+    border-bottom: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+}
+.title{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 2.5em;
+    line-height: 1em;
+    border-top: black;
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin-top: -8px;
+    padding-top: 15px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 1.2em;
+}
+span.indent{
+	width: 30px;
 }
